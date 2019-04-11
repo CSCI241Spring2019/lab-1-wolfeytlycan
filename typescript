@@ -1,0 +1,509 @@
+Script started on Thu 11 Apr 2019 12:29:43 PM PDT
+fallist@CF165-06:~$ mk dir csci1[K241
+mk: command not found
+fallist@CF165-06:~$ cd [K[K[Kmkdir csci241
+fallist@CF165-06:~$ cs [K[Kd csci241
+fallist@CF165-06:~/csci241$ ls
+fallist@CF165-06:~/csci241$ git clone https://github.com/CSCI241Spring2019/wolfe y[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Klab-1 -wolfeytlycan
+Cloning into 'lab-1-wolfeytlycan'...
+remote: Enumerating objects: 24, done.[K
+remote: Counting objects:   4% (1/24)   [Kremote: Counting objects:   8% (2/24)   [Kremote: Counting objects:  12% (3/24)   [Kremote: Counting objects:  16% (4/24)   [Kremote: Counting objects:  20% (5/24)   [Kremote: Counting objects:  25% (6/24)   [Kremote: Counting objects:  29% (7/24)   [Kremote: Counting objects:  33% (8/24)   [Kremote: Counting objects:  37% (9/24)   [Kremote: Counting objects:  41% (10/24)   [Kremote: Counting objects:  45% (11/24)   [Kremote: Counting objects:  50% (12/24)   [Kremote: Counting objects:  54% (13/24)   [Kremote: Counting objects:  58% (14/24)   [Kremote: Counting objects:  62% (15/24)   [Kremote: Counting objects:  66% (16/24)   [Kremote: Counting objects:  70% (17/24)   [Kremote: Counting objects:  75% (18/24)   [Kremote: Counting objects:  79% (19/24)   [Kremote: Counting objects:  83% (20/24)   [Kremote: Counting objects:  87% (21/24)   [Kremote: Counting objects:  91% (22/24)   [Kremote: Counting objects:  95% (23/24)   [Kremote: Counting objects: 100% (24/24)   [Kremote: Counting objects: 100% (24/24), done.[K
+remote: Compressing objects:   6% (1/15)   [Kremote: Compressing objects:  13% (2/15)   [Kremote: Compressing objects:  20% (3/15)   [Kremote: Compressing objects:  26% (4/15)   [Kremote: Compressing objects:  33% (5/15)   [Kremote: Compressing objects:  40% (6/15)   [Kremote: Compressing objects:  46% (7/15)   [Kremote: Compressing objects:  53% (8/15)   [Kremote: Compressing objects:  60% (9/15)   [Kremote: Compressing objects:  66% (10/15)   [Kremote: Compressing objects:  73% (11/15)   [Kremote: Compressing objects:  80% (12/15)   [Kremote: Compressing objects:  86% (13/15)   [Kremote: Compressing objects:  93% (14/15)   [Kremote: Compressing objects: 100% (15/15)   [Kremote: Compressing objects: 100% (15/15), done.[K
+remote: Total 24 (delta 5), reused 18 (delta 2), pack-reused 0[K
+Unpacking objects:   4% (1/24)   Unpacking objects:   8% (2/24)   Unpacking objects:  12% (3/24)   Unpacking objects:  16% (4/24)   Unpacking objects:  20% (5/24)   Unpacking objects:  25% (6/24)   Unpacking objects:  29% (7/24)   Unpacking objects:  33% (8/24)   Unpacking objects:  37% (9/24)   Unpacking objects:  41% (10/24)   Unpacking objects:  45% (11/24)   Unpacking objects:  50% (12/24)   Unpacking objects:  54% (13/24)   Unpacking objects:  58% (14/24)   Unpacking objects:  62% (15/24)   Unpacking objects:  66% (16/24)   Unpacking objects:  70% (17/24)   Unpacking objects:  75% (18/24)   Unpacking objects:  79% (19/24)   Unpacking objects:  83% (20/24)   Unpacking objects:  87% (21/24)   Unpacking objects:  91% (22/24)   Unpacking objects:  95% (23/24)   Unpacking objects: 100% (24/24)   Unpacking objects: 100% (24/24), done.
+Checking connectivity... done.
+fallist@CF165-06:~/csci241$ ls
+lab-1-wolfeytlycan
+fallist@CF165-06:~/csci241$ git config --c[Kglobal user.name "F[KTyler Fallis"
+fallist@CF165-06:~/csci241$ git config --global user.email "[Kfallist.[K@wwu.edu
+fallist@CF165-06:~/csci241$ touch[K[K[K[K[Kcd lab-1-wolfeytlycan
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ touch writeup.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git.a[K[K add writeup.e[Ktex[K[Kxt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git com[Kmmit -m "added empty [C[1P[1@A[C[C[C[C[C[C[C[C[C[C[Cwriteu p"
+[master a38487c] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git push origin master
+Username for 'https://github.com': wolfeytlycan
+Password for 'https://wolfeytlycan@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-wolfeytlycan
+   1c1ffa1..a38487c  master -> master
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git add writeup.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git commit -m "Added part 1 (ma[K[Kname s) to writeup"
+[master dbfd7ab] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git add writeup.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git c[Kstatus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git commit -m "Added art 2[K[K[K[K[Kpart 2 (hobb y) to write [Kup"
+[master a184475] Added part 2 (hobby) to writeup
+ 1 file changed, 1 insertion(+)
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git push origin master
+Username for 'https://github.com': wolfeytlycan
+Password for 'https://wolfeytlycan@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 558 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+git status
+To https://github.com/CSCI241Spring2019/lab-1-wolfeytlycan
+   a38487c..a184475  master -> master
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ touch iserm[K[K[K[K[Kusername.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git add username.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git commit -m "Added username.txt  for step 13"
+[master f25a837] Added username.txt for step 13
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ touch dummy.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git add dummy.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git commit -m"[K "Added dummy [K.txt, f or testing git funct[K[K[K[K[Kcommands":[K
+[master 9503765] Added dummy.txt, for testing git commands
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dummy.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git [K[Kt mv dummy.txt dumm[K.txt[K[K[K[K[K[Kiffdummy.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt checkout dummy.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git mv dummy.[K.txt dum[K[K[Ktest.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git rm tesst[K[Kt.m[Ktxt
+error: the following file has changes staged in the index:
+    test.txt
+(use --cached to keep the file, or -f to force removal)
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git rm [K[Kv [K[K[Kmv test.txt dummy.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git rm dummy.txt
+rm 'dummy.txt'
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git blame dummy.txt
+fatal: cannot stat path 'dummy.txt': No such file or directory
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git blame writeup.txt
+[?1h=dbfd7abc (Tyler Fallis 2019-04-11 12:33:20 -0700 1) 1) Tyler Fallis[m
+a1844757 (Tyler Fallis 2019-04-11 12:34:11 -0700 2) 2) Hobby: Digital Art[m
+[K[?1l>fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git log
+[?1h=[33mcommit 9503765cd68a2925193e141597837482cdcf0492[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:36:24 2019 -0700[m
+[m
+    Added dummy.txt, for testing git commands[m
+[m
+[33mcommit f25a837b43e854b4f94729260823376fa24f10cb[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:35:18 2019 -0700[m
+[m
+    Added username.txt for step 13[m
+[m
+[33mcommit a18447572334a5e11d0d0abfb0a6bdf9606740c2[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:34:11 2019 -0700[m
+[m
+    Added part 2 (hobby) to writeup[m
+[m
+[33mcommit dbfd7abccc05ee42962de8c04ab73a1c50d2d577[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:33:20 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K[m
+[33mcommit a38487ceebd6d6005527944b074143f8a7540a9f[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:32:23 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1c1ffa13fb9f06ac16f1778f1225a934e21b5504[m[m
+Author: wolfeytlycan <49534656+wolfeytlycan@users.noreply.github.com>[m
+Date:   Thu Apr 11 12:28:45 2019 -0700[m
+[m
+    Delete dummy.txt[m
+:[K[K:[K[K[m
+[33mcommit 2ecffb8834897abfbec341a0096e188ad2e42d2a[m[m
+Author: wolfeytlycan <49534656+wolfeytlycan@users.noreply.github.com>[m
+Date:   Thu Apr 11 12:28:39 2019 -0700[m
+[m
+    Delete username.txt[m
+[m
+[33mcommit b11b4856123977324341d6454348e43ab6aa9ed1[m[m
+Author: wolfeytlycan <49534656+wolfeytlycan@users.noreply.github.com>[m
+Date:   Thu Apr 11 12:28:31 2019 -0700[m
+[m
+    Delete writeup.txt[m
+[m
+[33mcommit 734dcd30a160b3e9937facdde593a0b3e2b3484f[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:23:22 2019 -0700[m
+[m
+    Dummy to try various functions of git[m
+[m
+[33mcommit 8720ea45158024267a8a5b0b184f85763546313d[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:21:46 2019 -0700[m
+[m
+:[K[K    Added username.txtfor step 13[m
+[m
+[33mcommit 1acced2f4404ad5b543c8dea76d173f23fbd9327[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:19:50 2019 -0700[m
+[m
+    Added part 1 (names) and part 2 (hobby) to writeup, had an error in terminal[m
+[m
+[33mcommit 954017cf342a5a6e7bfa02c5b719c1611b9328ea[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:11:03 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m546313d[m[m
+[m
+[m
+[m
+[m
+[m
+[33mfbd9327[m[m
+[m
+[m
+[m
+by) to writeup, had an error in terminal[m
+[m
+[33mb9328ea[m[m
+[m
+[m
+[m
+[m
+[m
+[33m44a5340[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMt[m
+[24;1H[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KAA[K[HMt[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[33m2b3484f[m[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KDD[H[2J[H[m
+    Delete writeup.txt[m
+[m
+[33mcommit 734dcd30a160b3e9937facdde593a0b3e2b3484f[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:23:22 2019 -0700[m
+[m
+    Dummy to try various functions of git[m
+[m
+[33mcommit 8720ea45158024267a8a5b0b184f85763546313d[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:21:46 2019 -0700[m
+[m
+    Added username.txtfor step 13[m
+[m
+[33mcommit 1acced2f4404ad5b543c8dea76d173f23fbd9327[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:19:50 2019 -0700[m
+[m
+    Added part 1 (names) and part 2 (hobby) to writeup, had an error in terminal[m
+[m
+[33mcommit 954017cf342a5a6e7bfa02c5b719c1611b9328ea[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+:[K[K [KESCESC[KOO[KDD[H[2J[H[m
+    Delete writeup.txt[m
+[m
+[33mcommit 734dcd30a160b3e9937facdde593a0b3e2b3484f[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:23:22 2019 -0700[m
+[m
+    Dummy to try various functions of git[m
+[m
+[33mcommit 8720ea45158024267a8a5b0b184f85763546313d[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:21:46 2019 -0700[m
+[m
+    Added username.txtfor step 13[m
+[m
+[33mcommit 1acced2f4404ad5b543c8dea76d173f23fbd9327[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+Date:   Thu Apr 11 12:19:50 2019 -0700[m
+[m
+    Added part 1 (names) and part 2 (hobby) to writeup, had an error in terminal[m
+[m
+[33mcommit 954017cf342a5a6e7bfa02c5b719c1611b9328ea[m[m
+Author: Tyler Fallis <fallist@wwu.edu>[m
+:[K[K [KESCESC[KOO[KAA[K[HMDate:   Thu Apr 11 12:28:31 2019 -0700[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAuthor: wolfeytlycan <49534656+wolfeytlycan@users.noreply.github.com>[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[33mcommit b11b4856123977324341d6454348e43ab6aa9ed1[m[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    Delete username.txt[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDate:   Thu Apr 11 12:28:39 2019 -0700[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAuthor: wolfeytlycan <49534656+wolfeytlycan@users.noreply.github.com>[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[33mcommit 2ecffb8834897abfbec341a0096e188ad2e42d2a[m[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    Delete dummy.txt[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDate:   Thu Apr 11 12:28:45 2019 -0700[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAuthor: wolfeytlycan <49534656+wolfeytlycan@users.noreply.github.com>[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[33mcommit 1c1ffa13fb9f06ac16f1778f1225a934e21b5504[m[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    Added empty writeup[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDate:   Thu Apr 11 12:32:23 2019 -0700[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAuthor: Tyler Fallis <fallist@wwu.edu>[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[33mcommit a38487ceebd6d6005527944b074143f8a7540a9f[m[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    Added part 1 (names) to writeup[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDate:   Thu Apr 11 12:33:20 2019 -0700[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAuthor: Tyler Fallis <fallist@wwu.edu>[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[33mcommit dbfd7abccc05ee42962de8c04ab73a1c50d2d577[m[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    Added part 2 (hobby) to writeup[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:28:39 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Delete username.txt[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit b11b4856123977324341d6454348e43ab6aa9ed1[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: wolfeytlycan <49534656+wolfeytlycan@users.noreply.github.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:28:31 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Delete writeup.txt[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 734dcd30a160b3e9937facdde593a0b3e2b3484f[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Tyler Fallis <fallist@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:23:22 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Dummy to try various functions of git[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 8720ea45158024267a8a5b0b184f85763546313d[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Tyler Fallis <fallist@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:21:46 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added username.txtfor step 13[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 1acced2f4404ad5b543c8dea76d173f23fbd9327[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Tyler Fallis <fallist@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:19:50 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added part 1 (names) and part 2 (hobby) to writeup, had an error in terminal[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 954017cf342a5a6e7bfa02c5b719c1611b9328ea[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Tyler Fallis <fallist@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Thu Apr 11 12:11:03 2019 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Added empty writeup[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: majeskn <majeskn@wwu.edu>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Mon Jan 7 20:49:19 2019 -0800[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ gut fd[K[K[K[K[Kit f[Kdiff [K
+[?1h=[K[?1l>fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git f[Kdiff un[Ksername.txt
+[?1h=[K[?1l>fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git push origin master
+Username for 'https://github.com': wolfeytlycan
+Password for 'https://wolfeytlycan@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 629 bytes | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/CSCI241Spring2019/lab-1-wolfeytlycan
+   a184475..9503765  master -> master
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git checkout -b "[Kquestion3
+D	dummy.txt
+Switched to a new branch 'question3'
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git add writeup.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git commit - [Km "Added part 3 (fa[K[Ksong ) to writeup.txt:[K"
+[question3 94b4d65] Added part 3 (song) to writeup.txt
+ 2 files changed, 1 insertion(+)
+ delete mode 100644 dummy.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git merge question [K3
+Already up-to-date.
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git branch[K[K[K[K[K[K-d question3
+Unknown option: -d
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git branch -d g[Kquestion3
+error: Cannot delete the branch 'question3' which you are currently on.
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git branch master
+fatal: A branch named 'master' already exists.
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git checkpu[K[Kout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git merge question3
+Updating 9503765..94b4d65
+Fast-forward
+ dummy.txt   | 0
+ writeup.txt | 1 [32m+[m
+ 2 files changed, 1 insertion(+)
+ delete mode 100644 dummy.txt
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git qu[K[Kbranch -d question3
+Deleted branch question3 (was 94b4d65).
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/fallist/csci241/lab-1-wolfeytlycan/build.gradl[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/fallist/csci241/lab-1-wolfeytlycan/build.gradl[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/fallist/csci241/lab-1-wolfeytlycan/build.gradl[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=[0;39;1m------------> 14% EXECUTING [1s][m[34D[1B[1m> :classes[m[0K[10D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [2s][m[35D[1B> IDLE[0K[6D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 3s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0mfallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mfallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ gradle build
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mfallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ gradle run --arge"[K[K[Kgs "[K"[K="[K[K[K="241"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello241
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mfallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ gradle build
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [0s][m[34D[1B[1m> :distTar[m[0K[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :distTar[m[10D[1B[2A[2K[1B[2K[1A[0mfallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ gradle run --args-[K="241"[K
+> "
+[0m
+[1A
+[1m> Task :run[m
+Hello 241
+!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mfallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git add srx[Kc/main/java/lab1/Hello. java
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git commit -m "Hello now prints c ommand line arg"
+[master e6ef13b] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git push origin master
+Username for 'https://github.com': wolfeytlycan
+Password for 'https://wolfeytlycan@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 886 bytes | 0 bytes/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-wolfeytlycan
+   9503765..e6ef13b  master -> master
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git add [K[K[K[K[K[K[K[Kgradle build
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mfallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ gradle run [K --arge[Ks="1[Ka"
+[0m
+[1A
+[1m> Task :run[m
+Hello, a!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mfallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git add src/main/java/lab1/Hello. java
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git commit -m "G[KHellow [K[K[Ko now prints i n the format provided b [Ky the rubric"
+[master ddc1d1d] Hello now prints in the format provided by the rubric
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ git push origin master
+Username for 'https://github.com': wolfeytlycan
+Password for 'https://wolfeytlycan@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 488 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-wolfeytlycan
+   e6ef13b..ddc1d1d  master -> master
+fallist@CF165-06:~/csci241/lab-1-wolfeytlycan$ exit
+exit
+
+Script done on Thu 11 Apr 2019 12:53:45 PM PDT
